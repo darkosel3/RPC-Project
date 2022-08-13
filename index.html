@@ -4,18 +4,21 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
 		<script defer src="script.js"></script>
 		<title>Document</title>
 	</head>
 	<body>
 		<div class="container">
-			<button data-type="Rock" class="btn">Rock</button>
-			<button data-type="Paper" class="btn">Paper</button>
-			<button data-type="Scissors" class="btn">Scissors</button>
-		</div>
-		<div>
 			<h3 id="result"></h3>
-			<p id="resultPara"></p>
+			<div class="buttonDiv">
+				<button data-type="Rock" class="btn">Rock</button>
+				<button data-type="Paper" class="btn">Paper</button>
+				<button data-type="Scissors" class="btn">Scissors</button>
+			</div>
+			<div class="resultDiv">
+				<p id="resultPara">Player 0 Computer 0</p>
+			</div>
 		</div>
 	</body>
 </html>
